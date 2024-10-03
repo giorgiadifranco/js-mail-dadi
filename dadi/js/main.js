@@ -8,6 +8,27 @@ console.log("it works");
 //Stabilire il vincitore: 
 //condizione: in base a chi fa il punteggio più alto.(1.punteggio più alto--> Win; 2. punteggio più basso --> lose; 3. stesso punteggio --> equality)
 
+let player1 = Math.floor(Math.random() * 7);
+console.log(player1);
+
+let player2 = Math.floor(Math.random() * 7);
+console.log(player2);
+
+if (player1>player2){
+    
+    let message = "player 1 is the winner";
+    console.log(message);
+    
+}else if(player2>player1){
+    let message = "player 2 is the winner";
+    console.log(message);
+    
+}else{
+    let message = "equality";
+    console.log(message);
+    
+}
+
 
 
 
