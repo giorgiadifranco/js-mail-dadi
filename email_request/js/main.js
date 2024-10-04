@@ -22,8 +22,10 @@ if(mailList.includes(emailIn)) {
     let message = "Benvenuto";
     console.log(message);
     
-}else if(mailList.includes(emailIn)){
+}else{
     let message = "Email non presente";
     console.log(message);
     
 }
+
+//if(mailList.includes(emailIn))
